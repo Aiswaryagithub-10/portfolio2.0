@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Icon file-->
+    <link rel="icon" href="assets/icon head.png" type="image/x-icon" />
+    <title>Portfolio | Aiswarya Babu</title>
+    <!--Jost font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!--Fontaswsome cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <!--Animation cdn-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--CSS File-->
+    <link rel="stylesheet" href="index.css" />
+    <!--Tailwind CSS file-->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body class="bg-[url(assets/body.png)] bg-cover bg-fixed bg-center h-screen border-b-0">
+      <!--Navbar-->
+    
+      <nav class="w-[70%] box-border justify-center my-5 mx-auto py-5 hidden md:flex" >
+          <div data-aos="fade-down" data-aos-duration="2000"
+            class="w-[600px] h-[50px] bg-[white] box-border bg-opacity-10 backdrop-blur-sm shadow-white shadow-sm py-3 rounded-[50px]" 
+          >
+            <ul
+              class="navbar-nav box-border flex justify-around font-[Jost] text-white font-[600]"
+            >
+              <li class="nav-items"><a href="#Home">Home    </span></a>  </li>
+              <li class="nav-items"><a href="#About">About  </a>  </li>
+              <li class="nav-items"><a href="#Skills">Skills </a>  </li>
+              <li class="nav-items"><a href="#Projects">Projects</a>  </li>
+              <li class="nav-items"><a href="#Contact">Contact</a>  </li>
+            </ul>
+          </div>
+      </nav>
+      <!--nav in phone start-->
+
+       <div class="phonemenu md:hidden">
+          <div
+            class="burger fixed" 
+          >
+            <div data-aos="fade-left" data-aos-duration="1000" class="border  h-[50px] w-[50px] rounded-[50px] flex flex-col justify-center items-center" >
+              <i class="fa-solid fa-bars text-white text-center text-[25px]" id="menu"></i>
+              <i class="fa-solid fa-xmark  text-white text-center text-[25px] hidden" id="cross"></i>
+            </div>
+         
+          </div>
+         <div  class="navphone fixed bg-[white] box-border bg-opacity-10 backdrop-blur-sm shadow-white shadow-sm py-3 hidden"  id="nav">
+            <ul
+            class="navbar-nav box-border flex flex-col justify-center items-center gap-3 font-[Jost] text-white font-[600]"
+           >
+            <li class="mobnav-items"><a href="#Home"    id="home">Home    </a>  </li>
+            <li class="mobnav-items"><a href="#About"   id="about">About   </a>  </li>
+            <li class="mobnav-items"><a href="#Skills"  id="skills">Skills  </a>  </li>
+            <li class="mobnav-items"><a href="#Projects" id="projects">Projects</a>  </li>
+            <li class="mobnav-items"><a href="#Contact" id="contact">Contact </a>  </li>
+          </ul>
+         </div>
+       </div>
+
+      <!--nav in phone End-->
+
+
+    <!--Home start-->
+    <section id="Home" >
+      <div class="2xl:container mx-auto py-5">
+        <div class="w-[75%] mx-auto p-8 grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 bg-[white] bg-opacity-5 rounded-xl backdrop-blur-md shadow-white shadow-sm slide-right" data-aos="fade-right" data-aos-duration="2000">
+          <div class=" flex flex-col justify-center items-center px-8 order-1 md:order-2">
+              <h1 class="font-[Jost] text-[#e44d26] font-[800] text-[18px] md:text-[40px] text-center flex-nowarp tracking-in-expand">Hi,I'm Aiswarya Babu</h1>
+              <p class="font-[Jost] text-white font-[400] text-center text-[14px] md:text-[25px] tracking-in-expand">Front  End Developer</p> 
+              <a href="https://drive.google.com/file/d/1Ep-ybHXKMcKJXDPt0tBz8g68zjHGI66M/view?usp=sharing" target="_blank" downloded>
+                <button  data-aos="fade-up" data-aos-duration="3000" data-aos-anchor-placement="top-bottom" class="bg-gradient-to-r from-green-900 to-blue-900 rounded-lg text-white mt-3 font-[Jost] text-[14px] font-[700] px-3 py-2 w-[130px] box-border btn">
+                  Download CV
+                </button>
+              </a>
+          </div>
+
+          <div class="flex justify-center py-5" >
+            <img src="assets/Ab.jpg" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="3000" alt="image" class=" w-[400px] h-auto rounded-xl  m-auto sk slit-in-vertical">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Home End-->
+
+     <!--About start-->
+     <section id="About">
+       <div class="2xl:container mx-auto py-5">
+        <div class="md:w-[70%] w-[60%] mx-auto px-8 py-4 grid grid-cols-1">
+          <div class="flex flex-col justify-center items-center space-y-4">
+            <h1 class="font-[Jost] text-[#36352e] font-[800] text-[30px] md:text-[40px] flex-nowarp heading" data-aos="zoom-in" data-aos-easing="ease-out-cubic" data-aos-duration="1000">About me</h1>
+          </div>
+        </div>
+
+        <div  data-aos="zoom-in-left" data-aos-duration="1000" class="md:w-[75%] w-[75%] mx-auto p-8 grid grid-cols-1 md:grid-cols-2 bg-[white] bg-opacity-5 rounded-xl backdrop-blur-md shadow-white shadow-sm slide-left">
+          <div class="flex flex-col justify-center items-start leading-8">
+          <p data-aos="fade-right" data-aos-duration="1000" class="font-[Jost] text-white font-[400] text-[14px] md:text-[18px] text-justify md:px-8 py-4" >I am a motivated <strong class="text-[#e44d26]">FrontEnd Developer Fresher</strong> with a B.Sc. in Computer Science. Skilled in JavaScript, HTML, CSS, and React.js, I specialize in creating dynamic, user-friendly, and responsive web applications. I have hands-on experience with tools like GitHub and VS Code. I’m proficient in modern frameworks such as Tailwind CSS.
+
+            I thrive on learning new technologies and continuously improving my craft, with a strong focus on building meaningful, impactful projects. As a fresher in web development, I am eager to collaborate with teams and contribute my creativity and technical skills to deliver exceptional digital experiences.</p>
+          <div class="flex justify-start items-center gap-3 md:px-8 py-2">
+            <div data-aos="fade-right" data-aos-duration="1000" class="border border-[#e44d26] h-[40px] w-[40px] rounded-[50px] md:h-[50px] md:w-[50px] md:rounded-[50px] flex flex-col justify-center items-center">
+              <i class="fa-solid fa-location-dot text-[#e44d26] text-[15px] md:text-[20px]" ></i>
+            </div>
+            <p class="font-[Jost] text-white font-[600] text-[10px] md:text-[18px]"  data-aos="fade-right" data-aos-duration="1000">Chennai, Tamil Nadu, India</p>
+          </div>
+          </div>
+          <div>
+            <img src="assets/abo.png" alt="about-img" data-aos="fade-left" data-aos-duration="2000">
+          </div>
+        </div>
+       </div>
+     </section>
+     <!--About End-->
+
+     <!--Skills start-->
+     <section id="Skills">
+      <div class="2xl:container mx-auto py-5">
+        <div class="w-[90%] mx-auto grid grid-cols-1 px-8 py-4">
+            <div  class="flex justify-center items-center py-2 space-y-4">
+                <h1 data-aos="zoom-in" data-aos-easing="ease-out-cubic" data-aos-duration="1000" class="font-[Jost] text-[#36352e] font-[800] text-[30px] md:text-[40px] flex-nowarp heading">Skills</h1>
+            </div>
+        </div>
+          
+        <div class="w-[75%] mx-auto  grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-6">
+
+            <div data-aos="zoom-in-up" data-aos-duration="1000" class="flex  flex-col justify-center items-center py-5 px-10 gap-4 bg-[white] bg-opacity-5 rounded-xl backdrop-blur-md shadow-white shadow-sm slide-right">
+                  <h1 class="font-[Jost] text-[#ffffff] font-[600] text-[18px] md:text-[25px] flex-nowarp">Languages</h1>
+
+            <div class="flex flex-row flex-wrap justify-evenly items-center gap-4">
+              <div class="flex flex-col items-center">
+                <div class="skill-item flex flex-col justify-center items-center">
+                  <img src="assets/Html.png" alt="" class="md:h-12 h-8 drop-shadow-lg shadow-black">
+                </div>
+                <p class="font-[Jost] text-white font-[400] text-[12px] md:text-[16px] text-center">HTML</p>
+              </div>
+              <div class="flex flex-col items-center">
+                <div class="skill-item flex flex-col justify-center items-center">
+                  <img src="assets/css.png" alt="" class="md:h-12 h-8 drop-shadow-lg shadow-black">
+                </div>
+                <p class="font-[Jost] text-white font-[400] text-[12px] md:text-[16px] text-center">CSS</p>
+               </div>
+              <div class="flex flex-col items-center">
+                <div class="skill-item flex flex-col justify-center items-center">
+                  <img src="assets/js.png" alt="" class="md:h-12 h-8 drop-shadow-lg shadow-black">
+                </div>
+                <p class="font-[Jost] text-white font-[400] text-[12px] md:text-[16px] text-center">JavaScript</p>
+               </div>         
+            </div>
+          </div>
+
+          <div data-aos="zoom-in-up" data-aos-duration="1000" class="flex  flex-col justify-center items-center py-5 px-10 gap-4 bg-[white] bg-opacity-5 rounded-xl backdrop-blur-md shadow-white shadow-sm slide-right">
+            <h1 class="font-[Jost] text-[#ffffff] font-[600] text-[18px] md:text-[25px] flex-nowarp">Libraries</h1>
+
+      <div class="flex flex-row flex-wrap justify-evenly items-center gap-4">
+        <div class="flex flex-col items-center">
+          <div class="skill-item flex flex-col justify-center items-center">
+            <img src="assets/reactjs.png" alt="" class="md:h-12 h-8 drop-shadow-lg shadow-black">
+          </div>
+          <p class="font-[Jost] text-white font-[400] text-[12px] md:text-[16px] text-center">React</p>
+        </div>
+        <div class="flex flex-col items-center">
+          <div class="skill-item flex flex-col justify-center items-center">
+            <img src="assets/tailwind-css.png" alt="" class="md:h-12 h-8 drop-shadow-lg shadow-black">
+          </div>
+          <p class="font-[Jost] text-white font-[400] text-[12px] md:text-[16px] text-center">Tailwindcss</p>
+         </div>
+         </div>
+          </div>
+
+          <div data-aos="zoom-in-up" data-aos-duration="1000" class="flex  flex-col justify-center items-center py-5 px-10 gap-4 bg-[white] bg-opacity-5 rounded-xl backdrop-blur-md shadow-white shadow-sm slide-right">
+            <h1 class="font-[Jost] text-[#ffffff] font-[600] text-[18px] md:text-[25px] flex-nowarp">Database</h1>
+
+      <div class="flex flex-row flex-wrap justify-evenly items-center gap-4">
+        <div class="flex flex-col items-center">
+          <div class="skill-item flex flex-col justify-center items-center">
+            <img src="assets/mndb.png" alt="" class="md:h-10 h-8 drop-shadow-lg shadow-black">
+          </div>
+          <p class="font-[Jost] text-white font-[400] text-[12px] md:text-[16px] text-center">MongoDB</p>
+        </div>
+         </div>
+          </div>
+                              
+          <div  data-aos="zoom-in-up" data-aos-duration="1000" class="flex flex-col  items-center py-5 px-10 gap-4 bg-[white] bg-opacity-5 rounded-xl backdrop-blur-md shadow-white shadow-sm slide-left">
+            <h1 class="font-[Jost] text-[#ffffff] font-[600] text-[18px] md:text-[25px] flex-nowarp">Tools</h1>
+
+            <div class="flex flex-row flex-wrap justify-around items-center gap-4">
+              <div class="flex flex-col justify-around items-center">
+                <div class="skill-item flex flex-col justify-center items-center">
+                  <img src="assets/visual-studio-code.png" alt="" class="md:h-12 h-8 drop-shadow-lg shadow-black">
+                </div>
+                <p class="font-[Jost] text-white font-[400] text-[12px] md:text-[16px] text-center">VS Code</p>
+              </div>
+              
+              <div class="flex flex-col items-center">
+                <div class="skill-item flex flex-col justify-center items-center">
+                  <img src="assets/github.png" alt="" class="md:h-12 h-8 drop-shadow-lg shadow-black">
+                </div>
+                <p class="font-[Jost] text-white font-[400] text-[12px] md:text-[16px] text-center">Github</p>
+              </div>
+  
+              <div class="flex flex-col items-center">
+                <div class="skill-item flex flex-col justify-center items-center">
+                  <img src="assets/vercel.png" alt="vercel" class="md:h-10 h-8 drop-shadow-lg shadow-black">
+                </div>
+                <p class="font-[Jost] text-white font-[400] text-[12px] md:text-[16px] text-center">Vercel</p>
+              </div>
+               
+            </div>
+            </div>
+         </div>
+      </div>
+     </section>
+     <!--Skills end-->
+
+    <!--Project Start-->
+    <section id="Projects">
+     <div class="2xl:container mx-auto py-5">
+      <div class="w-[90%] mx-auto grid grid-cols-1 ">
+         <div class="flex flex-col justify-center items-center py-4">
+          <h1 data-aos="zoom-in" data-aos-easing="ease-out-cubic" data-aos-duration="1000" class="font-[Jost] text-[#36352e] font-[800] text-[30px] md:text-[40px] flex-nowarp heading">Projects</h1>
+         </div>
+      </div>
+      
+      <div class="w-[75%] mx-auto grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 p-2 gap-6">
+        
+
+        <div data-aos="zoom-in" data-aos-duration="1000" class="bg-[white] bg-opacity-5 rounded-xl backdrop-blur-md shadow-white shadow-sm flex flex-col justify-center items-center py-5">
+          <img src="assets/quiz.jpg" alt="Quiz app img" class="h-96 p-2 w-full object-cover rounded-[20px]">
+          <div class="flex flex-col justify-center items-center">
+            <p class="font-[Jost] text-[#ffffff] font-[600] text-[20px] text-center px-3 mt-2 flex-nowarp">Quiz App</p>
+            <p class="font-[Jost] text-[#ffffff] font-[400] text-[12px] text-center px-3 mt-2">A dynamic quiz app built with React, featuring user registration, real-time answer validation, and a results page with score review. Utilizes React Context API and hooks for efficient state management and navigation.</p>
+         </div>
+          <div class="md:space-x-4 gap-2 mt-4 flex flex-col md:flex-row">
+            <a href="https://quizapp-sandy-beta.vercel.app/" target="_blank">
+              <button class="bg-green-600 py-3 px-8 rounded-xl font-[Jost] text-white font-[600] text-[12px] md:text-[16px] ">Demo <i class="fa-solid fa-link"></i>
+              </button>
+            </a>
+            <a href="https://github.com/Aiswaryagithub-10/Quizapp" target="_blank">
+              <button class="bg-black py-3 px-8 rounded-xl font-[Jost] text-white font-[600] text-[12px] md:text-[16px] ">Github <i class="fa-brands fa-github"></i>
+              </button>
+            </a>
+          </div>
+        </div>
+
+        <div data-aos="zoom-in" data-aos-duration="1000" class="bg-[white] bg-opacity-5 rounded-xl backdrop-blur-md shadow-white shadow-sm flex flex-col justify-center items-center py-5">
+          <img src="assets/todo.jpg" alt="To Do img" class=" h-28.5 px-2  rounded-[20px]">
+         <div class="flex flex-col justify-center items-center">
+            <p class="font-[Jost] text-[#ffffff] font-[600] text-[20px] text-center px-3 mt-2 flex-nowarp">To Do Activity webpage</p>
+            <p class="font-[Jost] text-[#ffffff] font-[400] text-[12px] text-center px-3 mt-2">A To-Do Activity Web Page allows users to manage tasks with features like add, edit, and delete, built using React and Tailwind CSS. It provides a responsive interface and showcases modern web development skills.</p>
+         </div>
+          <div class="md:space-x-4 gap-2 mt-4 flex flex-col md:flex-row">
+            <a href="https://act-to-do-03.vercel.app/" target="_blank">
+              <button class="bg-green-600 py-3 px-8 rounded-xl font-[Jost] text-white font-[600] text-[12px] md:text-[16px] ">Demo <i class="fa-solid fa-link"></i>
+              </button>
+            </a>
+            <a href="https://github.com/Aiswaryagithub-10/Act-to-do" target="_blank">
+              <button class="bg-black py-3 px-8 rounded-xl font-[Jost] text-white font-[600] text-[12px] md:text-[16px] ">Github <i class="fa-brands fa-github"></i>
+              </button>
+            </a>
+          </div>
+        </div>
+
+        <div data-aos="zoom-in" data-aos-duration="1000" class="bg-[white] bg-opacity-5 rounded-xl backdrop-blur-md shadow-white shadow-sm flex flex-col justify-center items-center py-5">
+          <img src="assets/weath.jpg" alt="weather img" class=" h-50 px-3 rounded-[20px]">
+         <div class="flex flex-col justify-center items-center">
+            <p class="font-[Jost] text-[#ffffff] font-[600] text-[20px] text-center px-3 mt-2 flex-nowarp">Weather Website</p>
+            <p class="font-[Jost] text-[#ffffff] font-[400] text-[12px] text-center px-3 mt-2">A Weather App built using React, JavaScript, and Tailwind CSS, fetches real-time weather data from the OpenWeatherMap API. It features a responsive interface, dynamic data rendering, and user-friendly functionality for city-based weather updates.</p>
+         </div>
+          <div class="md:space-x-4 gap-2 mt-4 flex flex-col md:flex-row">
+            <a href="https://weather-report-1-five.vercel.app/" target="_blank">
+              <button class="bg-green-600 py-3 px-8 rounded-xl font-[Jost] text-white font-[600] text-[12px] md:text-[16px] ">Demo <i class="fa-solid fa-link"></i>
+              </button>
+            </a>
+            <a href="https://github.com/Aiswaryagithub-10/Weather-report" target="_blank">
+              <button class="bg-black py-3 px-8 rounded-xl font-[Jost] text-white font-[600] text-[12px] md:text-[16px] ">Github <i class="fa-brands fa-github"></i>
+              </button>
+            </a>
+          </div>
+        </div>
+
+        <div data-aos="zoom-in" data-aos-duration="1000" class="bg-[white] bg-opacity-5 rounded-xl backdrop-blur-md shadow-white shadow-sm flex flex-col justify-center items-center py-5">
+          <img src="assets/per.png" alt="perfume img" class=" h-50 px-3 rounded-[20px]">
+         <div class="flex flex-col justify-center items-center">
+            <p class="font-[Jost] text-[#ffffff] font-[600] text-[20px] text-center px-3 mt-2 flex-nowarp">Perfume gallery</p>
+            <p class="font-[Jost] text-[#ffffff] font-[400] text-[12px] text-center px-3 mt-2">A Perfume Gallery website created using HTML and CSS, featuring a visually appealing and responsive design. It showcases a curated collection of perfumes with an elegant and user-friendly layout.</p>
+         </div>
+          <div class="md:space-x-4 gap-2 mt-4 flex flex-col md:flex-row">
+            <a href="https://react-img-gallery-iota.vercel.app/" target="_blank">
+              <button class="bg-green-600 py-3 px-8 rounded-xl font-[Jost] text-white font-[600] text-[12px] md:text-[16px] ">Demo <i class="fa-solid fa-link"></i>
+              </button>
+            </a>
+            <a href="https://github.com/Aiswaryagithub-10/perfume-img-gallery" target="_blank">
+              <button class="bg-black py-3 px-8 rounded-xl font-[Jost] text-white font-[600] text-[12px] md:text-[16px] ">Github <i class="fa-brands fa-github"></i>
+              </button>
+            </a>
+          </div>
+        </div>
+
+        <div data-aos="zoom-in" data-aos-duration="1000" class="bg-[white] bg-opacity-5 rounded-xl backdrop-blur-md shadow-white shadow-sm flex flex-col justify-center items-center py-5 slide-right">
+          <img src="assets/ud.jpg" alt="Protfolio web img" class=" h-50 px-3 rounded-[20px]">
+         <div class="flex flex-col justify-center items-center">
+            <p class="font-[Jost] text-[#ffffff] font-[600] text-[20px] text-center px-3 mt-2 flex-nowarp">Uedemy Clone</p>
+            <p class="font-[Jost] text-[#ffffff] font-[400] text-[12px] text-center px-3 mt-2">The Udemy Clone is a web app that replicates the core features of Udemy, including course browsing and filtering, using HTML,Tailwind CSS, and JavaScript.</p>
+         </div>
+          <div class="md:space-x-4 gap-2 mt-4 flex flex-col md:flex-row">
+            <a href="https://react-udemy-five.vercel.app/" target="_blank">
+              <button class="bg-green-600 py-3 px-8 rounded-xl font-[Jost] text-white font-[600] text-[12px] md:text-[16px] flex-wrap">Demo <i class="fa-solid fa-link"></i>
+              </button>
+            </a>
+            <a href="https://github.com/Aiswaryagithub-10/react-udemy" target="_blank">
+              <button class="bg-black py-3 px-8 rounded-xl font-[Jost] text-white font-[600] text-[12px] md:text-[16px] ">Github <i class="fa-brands fa-github"></i>
+              </button>
+            </a>
+          </div>
+        </div> 
+
+        <div data-aos="zoom-in" data-aos-duration="1000" class="bg-[white] bg-opacity-5 rounded-xl backdrop-blur-md shadow-white shadow-sm flex flex-col justify-center items-center py-5">
+          <img src="assets/jo.jpg" alt="joke img" class=" h-50 px-3 rounded-[20px]">
+         <div class="flex flex-col justify-center items-center">
+            <p class="font-[Jost] text-[#ffffff] font-[600] text-[20px] text-center px-3 mt-2 flex-nowarp">Random Jokes</p>
+            <p class="font-[Jost] text-[#ffffff] font-[400] text-[12px] text-center px-3 mt-2">The Random Joke Generator project is a web application that fetches and displays random jokes from an API, allowing users to enjoy a new joke with every click, built using HTML, CSS, and JavaScript.</p>
+         </div>
+          <div class="md:space-x-4 gap-2 mt-4 flex flex-col md:flex-row">
+            <a href="https://random-jokes-sepia.vercel.app/" target="_blank">
+              <button class="bg-green-600 py-3 px-8 rounded-xl font-[Jost] text-white font-[600] text-[12px] md:text-[16px] ">Demo <i class="fa-solid fa-link"></i>
+              </button>
+            </a>
+            <a href="https://github.com/Aiswaryagithub-10/Random-Jokes" target="_blank">
+              <button class="bg-black py-3 px-8 rounded-xl font-[Jost] text-white font-[600] text-[12px] md:text-[16px] ">Github <i class="fa-brands fa-github"></i>
+              </button>
+            </a>
+          </div>
+        </div>
+
+      </div>
+     </div>
+    </section>
+    <!--Projrct end-->
+
+     <!--Sidebar start-->
+     <!-- Scroll to Home Section -->
+<!--Sidebar start-->
+<a href="#" class="totop" data-aos="fade-up" data-aos-duration="1000">
+  <i class="fa-solid fa-arrow-up  text-[25px] text-white"></i>
+  </a>
+  <!--Sidebar end-->
+     <!--Sidebar end-->
+
+     <!--Contact start-->
+     <section id="Contact">
+      <div class="2xl:container mx-auto">
+        <div class="w-[80%] mx-auto grid grid-cols-1 py-5">
+          <div class="flex justify-center items-start">
+            <h1 data-aos="zoom-in" data-aos-easing="ease-out-cubic" data-aos-duration="1000" class="font-[Jost] text-[#36352e] font-[800] text-[30px] md:text-[40px] flex-nowarp heading">Contact me</h1>
+          </div>
+        </div>
+
+        <div class="w-[75%] mx-auto pb-4 gap-5 grid grid-col-1 md:grid-cols-1 lg:grid-cols-2 bg-[white] bg-opacity-5 rounded-xl backdrop-blur-md shadow-white shadow-sm">
+          <div class=" flex flex-col mx-auto justify-center items-start mt-5 ">
+            <div class="flex px-3 md:px-8 pt-4">
+              <h2 data-aos="fade-right" data-aos-duration="1000" class="font-[Jost] text-[#36352e] font-[800] text-[20px] md:text-[24px] flex-nowarp heading">To Hire Me</h2>
+            </div>
+            <div data-aos="fade-right" data-aos-duration="1000" class="flex flex-col justify-center md:px-8 px-3 gap-2 mt-4">
+                 <form method="POST" class="flex flex-col gap-2" id="form">
+                  <input type="hidden" name="access_key" value="b2fc029b-f410-4cbc-a577-4acf3813f629">
+                   <label for="name" class="text-white font-[Jost] text-start  font-[400] text-[20px]">Name :</label>
+                   <input id="name" type="text" required  name="Name :" placeholder="Enter your name" class=" w-[230px] capitalize rounded-[8px] md:h-[40px] text-[12px] md:w-[300px] font-[Jost]  text-white bg-[transparent] outline-none border-[2px] border-white md:rounded-md box-border px-2 py-2">
+                   <label for="email"   class="text-white font-[Jost]  font-[400] text-[20px]">Email :</label>
+                   <input id="email" type="email" required  name="Email :"  placeholder="Enter your email" class=" w-[230px] rounded-[8px] md:h-[40px] text-[12px] md:w-[300px] font-[Jost]  text-white bg-[transparent] outline-none border-[2px] border-white md:rounded-md box-border  px-2 py-2">
+                   <label for="message" class="text-white font-[Jost]  font-[400] text-[20px]">Message :</label>
+                   <textarea id="message" name="Message :" class="w-[230px] rounded-[8px] md:h-[60px] capitalize md:w-[300px] md:rounded-md bg-[transparent] font-[Jost] text-[12px] text-white border-[2px] outline-none border-white box-border p-2" placeholder="Say 'Hi'..." id=""></textarea>
+    
+                  <div class="flex justify-center m-4">
+                     <button id="result" class="btn bg-gradient-to-r from-green-900 to-blue-900 rounded-lg text-white font-[Jost] text-[14px] font-[700] px-3 py-2 w-[130px] box-border" id="sumbit">
+                       Send Message
+                     </button>
+                  </div>
+                 </form>
+
+                 <div class="flex flex-row justify-center items-center mb-3 gap-4">
+                  
+                 <div class="flex items-center">
+                    <div class="side-item flex flex-col justify-center items-center hover:text-[24px]">
+                      <a href="https://www.linkedin.com/in/aiswarya-mernstack1025/" target="_blank" class=""><i class="fa-brands fa-linkedin-in text-[18px]  text-white"></i></a>
+                    </div>
+                    <!-- <p class="font-[Jost] text-white font-[400] text-[20px] text-center"> Linkedin</p> -->
+                 </div>
+      
+                  <div class="flex items-center ">
+                    <div class="side-item flex flex-col justify-center items-center ">
+                      <a href="https://github.com/Aiswaryagithub-10" target="_blank" class=""><i class="fa-brands fa-github text-[18px] text-white"></i></a>
+                    </div>
+                    <!-- <p class="font-[Jost] text-white font-[400] text-[20px] text-center">Github</p> -->
+                  </div>
+
+                  <div class="flex items-center">
+                    <div class="side-item flex flex-col justify-center items-center hover:text-[24px]">
+                      <a href="mailto:aiswarya.p.b10@gmail.com" class=""><i class="fa-regular fa-envelope text-[18px] text-white"></i></a>
+                    </div>
+                    <!-- <p class="font-[Jost] text-white font-[400] text-[20px] text-center">Resume</p> -->
+                  </div>
+
+                 </div>
+            </div>       
+          </div>
+
+          <div class=" justify-center items-center hidden lg:flex">
+            <img data-aos="fade-left" data-aos-duration="1000" src="assets/cont.jpg" alt="contact-img" class="w-[400px] sm:hidden md:hidden lg:flex">
+          </div>
+
+        </div>
+      </div>
+     </section>
+  
+     <!--Contact End-->
+
+     <!--Footer start-->
+     <footer>
+      <div class="2xl:container mx-auto">
+        <div class="flex justify-center items-center gap-4 py-2 mt-4 bg-black">
+          <div class="flex flex-col items-center">
+            <p class=" font-[Jost]  font-[400] text-white text-[12px] flex-nowarp">&#169 2024 Aiswarya. All rights reserved</p>
+          </div>
+        </div>
+      </div>  
+     </footer>
+     <!--Footer end-->
+
+     <!--Js file-->
+     <script src="script.js"></script>
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+     <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
